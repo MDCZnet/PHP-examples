@@ -1,5 +1,15 @@
 <?php
 
+$url = 'https://www.prodejnyzeman.cz/stores.json';
+
+print_r(parse_url($url));
+
+//echo parse_url($url, PHP_URL_HOST);
+
+
+
+exit();
+
 $stores = array (
   array (
     "name" => "Jinecká 315, 261 01 Příbram 1",
